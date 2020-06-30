@@ -16,7 +16,7 @@ jobs:
       - uses: autero1/action-terraform@v0.1.0
         with:
           terraform_version: 0.12.21
-      - name: Download Go Modules Needed For Run It 
+      - name: Download Go Modules Needed For Run It
         run: go mod download
       - name: Run Tests
         run: go test -v
