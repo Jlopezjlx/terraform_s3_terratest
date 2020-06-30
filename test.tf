@@ -8,8 +8,6 @@ variable "region" {
 
 provider "aws" {
   region = var.region
-  access_key = "AKIAWVIUOJZXDIRPSJU2"
-  secret_key = "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"
 }
 
 resource "aws_s3_bucket" "b3" {
